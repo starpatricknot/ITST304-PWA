@@ -21,3 +21,8 @@ html,
 .title {
   font-size: 3rem;
 }
+
+.container .projdesc{
+  margin-left: 25%;
+  margin-right: 25%;
+}
