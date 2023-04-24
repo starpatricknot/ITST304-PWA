@@ -1,23 +1,39 @@
-body {
-  font-family: sans-serif;
-}
-
-/* Make content area fill the entire browser window */
-html,
-.fullscreen {
-  display: flex;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-/* Center the content in the browser window */
 .container {
-  margin: auto;
-  text-align: center;
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
 }
 
-.title {
-  font-size: 3rem;
+.board {
+	display: flex;
+	flex-wrap: wrap;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.square:hover {
+	background-color: lightgrey;
+}
+
+.square.clicked {
+	background-color: #333;
+	color: white;
+}
+
+.reset {
+	margin-top: 20px;
+	padding: 10px;
+	border: none;
+	background-color: lightgrey;
+	font-size: 18px;
+	cursor: pointer;
 }
