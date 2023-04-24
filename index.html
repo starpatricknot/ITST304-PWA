@@ -4,19 +4,10 @@
     <title>Guess the Number Game</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="manifest" href="manifest.json">
+    <script src="sw.js"></script>
 
 
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function() {
-          navigator.serviceWorker.register('sw.js').then(function(registration) {
-            console.log('ServiceWorker registration successful with scope: ', registration.scope);
-          }, function(err) {
-            console.log('ServiceWorker registration failed: ', err);
-          });
-        });
-      }
-    </script>
+    
     
   </head>
   <body>
@@ -25,10 +16,6 @@
     <input type="number" id="guess-input" placeholder="Enter your guess">
     <button id="guess-button">Guess</button>
     <div id="message"></div>
-    <script src="js/main.js"></script>
-    <script>
-      
-    </script>
-    
+    <script src="js/main.js"></script>    
   </body>
 </html>
