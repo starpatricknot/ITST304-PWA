@@ -1,25 +1,37 @@
+*{
+  margin: 0px;
+  color: white;
+}
 body {
-  font-family: fantasy, sans-serif;
+  font-family: Arial, sans-serif;
   text-align: center;
+  background-color: #08141a;
 }
 
-h1 {
-  font-size: 36px;
-  font-weight: bold;
+.title {
   margin-top: 50px;
+  margin-bottom: 50px;
+}
+.title h1{
+  font-size: 75px;
+  font-weight: bold;
 }
 
-p {
+.content{
+  background-color: #102937;
+}
+.content p {
+  font-size: 24px;
+  padding-top: 7%;
+}
+
+.content #guess-input {
   font-size: 24px;
   margin-top: 20px;
+  color: black;
 }
 
-#guess-input {
-  font-size: 24px;
-  margin-top: 20px;
-}
-
-#guess-button {
+.content #guess-button {
   font-size: 24px;
   margin-top: 20px;
   background-color: #4CAF50;
@@ -34,4 +46,5 @@ p {
   font-size: 24px;
   margin-top: 20px;
   font-weight: bold;
+  padding-bottom: 26.6%;
 }
