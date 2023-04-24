@@ -3,6 +3,9 @@
   <head>
     <title>Guess the Number Game</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+
+
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
@@ -12,9 +15,6 @@
             console.log('ServiceWorker registration failed: ', err);
           });
         });
-      }
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('sw.js');
       }
     </script>
     
