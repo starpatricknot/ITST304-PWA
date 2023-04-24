@@ -11,5 +11,11 @@
     <button id="guess-button">Guess</button>
     <div id="message"></div>
     <script src="js/main.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js');
+      }
+    </script>
+    
   </body>
 </html>
