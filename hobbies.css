@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+	margin: 0px 0px 0px 0px;
+	color: #2d3436;
+}
+
+/* Navigation Menu */
+.wrapper{
+	width: 100%;
+	border: 1px solid #f5f6fa;
+	background: #f5f6fa;
+	box-shadow: 									
+       inset 0 -3em 3em #f5f6fa,
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.nav-area{
+	list-style: none;
+	margin-top: 30px;
+	margin-right: 50px;
+	text-align: right;
+	margin-bottom: 25px;
+}
+.nav-area #name-list{
+	color: #482673;
+	text-decoration: none;
+	padding-right: 65.9%;
+	font-family: 'PT Sans', sans-serif;
+	text-transform: uppercase; 						
+}
+.nav-area li{
+	display: inline-block;
+}
+.nav-area li a{
+	color: #482673;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: 'poppins';
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover{
+	background: #fff;
+	color: skyblue;
+}
+
+/*body content*/
+body{
+	background-color: #60a3bc;
+}
+main{
+	border: 1px solid #f5f6fa;
+	margin: 7% 20% 7% 20%;
+	padding: 5% 5% 0% 5%;
+	background-color: #f5f6fa;
+	box-shadow:
+      inset 0 -3em 3em rgba(0,0,0,0.1),
+            0.3em 0.3em 1em rgba(0,0,0,0.3);	
+}
+p{
+	font-size: 20px; 
+	text-align: justify; 
+	line-height: 30px;
+}
+
+.guitaristerist p{
+	margin: 25px 45% 75px 25px;
+
+}
+#guitarman{
+	float: right;
+	margin: 15px 15px 25px 15px;
+	height: auto;
+	width: 40%;
+	border-radius: 10px;
+}
+.music h2{
+	float: right;
+	padding-top: 25px;
+}
+.music p{
+	margin: 75px 25px 80px 45%;
+
+}
+#musicman{
+	float: left;
+	margin: 25px 35px 25px 10px;
+	height: auto;
+	width: 40%;
+	border-radius: 10px;
+}
+.anime h2{
+	text-align: left; 
+	padding-top: 25px;
+}
+.anime p{
+	margin: 25px 45% 150px 25px;}
+
+#animeman{
+	float: right;
+	margin: 25px 15px 25px 15px;
+	height: auto;
+	width: 40%;
+	border-radius: 10px;
+}
+
+.game h2{
+	float: right;
+	padding-top: 25px;
+}
+.game p{
+	margin: 75px 25px 75px 100px;
+}
+#gamerman{
+	float: left;
+	margin: 25px 35px 25px 25px;
+	height: auto;
+	width: 40%;
+	border-radius: 10px;
+}
+
+/* footer css*/
+footer{
+	background: #f5f6fa;
+}
+.footer-content{
+	margin-top: 3%;
+	padding-bottom: 3%;
+	text-align: left;
+	width: 100%;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	line-height: 23px;
+	color: black;
+}
+.footer-content ul li{
+	list-style: none;
+	display: inline-block;
+}
+#phone{
+	margin-left: 17%;
+	margin-right: 10%;
+}
+#email{
+	margin-right: 10%;
+}
+#c{
+	margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+/* Responsive for screen size 1366x768 */
+@media screen and (max-width: 1366px) {	/*This section makes the content of the webpage responsive by*/
+	main{						/*using media queries.*/ 
+	border: 1px solid #f5f6fa;
+	margin: 10% 10% 10% 10%;
+	padding: 5% 5% 5% 5%;
+	background-color: #f5f6fa;
+	box-shadow:
+      inset 0 -3em 3em rgba(0,0,0,0.1),
+            0.3em 0.3em 1em rgba(0,0,0,0.3);	
+	}
+
+	#phone{
+	margin-left: 10%;
+	margin-right: 10%;
+	}
+}
+
